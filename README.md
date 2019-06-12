@@ -6,6 +6,8 @@ A basic react application running on the aws platform.  The application is not t
 
 The application can be viewed at www.spotaquarium.com
 
+Here is a diagram of the serverless application:
+![](images/Serverless_Site.jpg)
 
 imgur_download_project:
 I created this project to download pictures based on imgur urls located in a text file.  It works well and even has gaceful means handling 
