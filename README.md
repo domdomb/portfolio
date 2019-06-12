@@ -2,7 +2,10 @@
 Personal Projects that I have completed of note.
 
 serverless react app:
-A basic react application running on the aws platform.  The application is not the focus in this case.  The main focus is the way the application is served to users.  
+A basic react application running on the aws platform.  The application is not the focus in this case.  The main focus is the way the application is served to users.  The application contents are in an S3 bucket. Using route53 dns service, I connected a domain name that routes traffic to the S3 bucket the application sits.
+
+The application can be viewed at www.spotaquarium.com
+
 
 imgur_download_project:
 I created this project to download pictures based on imgur urls located in a text file.  It works well and even has gaceful means handling 
