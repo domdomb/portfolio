@@ -2,7 +2,7 @@
 Personal Projects that I have completed of note.
 
 serverless react app:
-A basic react application running on the aws platform.  The application is not the focus in this case.  The main focus is the way the application is served to users.  The application contents are in an S3 bucket. Using route53 dns service, I connected a domain name that routes traffic to the S3 bucket the application sits.
+A basic react application running on the aws platform.  The application is not the focus in this case.  The main focus is the way the application is served to users.  The application contents are in an S3 bucket. Using route53 dns service, I connected a domain name that routes traffic to the S3 bucket the application sits. The folder containing the application is called 'game'.
 
 The application can be viewed at www.spotaquarium.com
 
