@@ -1,8 +1,20 @@
+# ___________________________________________________________
+# |This application takes link from a text file with images |
+# |from imgur and downloads them to specified folder.       |
+# |                                                         |
+# |_________________________________________________________|
+# |Things that could be added:                              | 
+# |   * Could add a simple GUI                              |
+# |   * Browse folder for image location folder             |
+# |   * Add an add URL option                               | 
+# |_________________________________________________________|
+
 import urllib.request
 import os
 
 notepad_path = os.path.join(r"C:\Users\Dominic\Documents\projects\Projects\imgur_download_project\reddit_links.txt")
 file = open(notepad_path, "r")
+
 #this variable is a list
 notepad_line = (file.readlines())
 value = 0
